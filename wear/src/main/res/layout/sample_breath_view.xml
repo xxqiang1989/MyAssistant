@@ -1,0 +1,13 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.xxqiang.myassistant.view.BreathView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:roundCount="8"
+        app:percent="1"/>
+
+</FrameLayout>

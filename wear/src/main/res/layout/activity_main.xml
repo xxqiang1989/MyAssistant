@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.wearable.view.BoxInsetLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.xxqiang.myassistant.MainActivity"
+    tools:deviceIds="wear"
+    android:background="@android:color/black">
+
+    <com.xxqiang.myassistant.view.BreathView
+        android:id="@+id/bv_breath"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:roundCount="8"
+        app:startAlpha="80"
+        app:endAlpha="50"
+        app:startRadius="10dp"
+        app:endRadius="48dp"
+        app:roundColor="#4CAF50"
+        app:percent="0"
+        app:durationIn="3500"
+        app:durationOut="5000" />
+
+    <!--<ImageButton-->
+    <!--android:id="@+id/ib_icon"-->
+    <!--android:layout_width="48dp"-->
+    <!--android:layout_height="48dp"-->
+    <!--android:layout_gravity="center"-->
+    <!--android:src="@drawable/close_button"-->
+    <!--android:scaleType="centerInside"-->
+    <!--android:background="@android:color/transparent"-->
+    <!--app:layout_box="all" />-->
+
+    <!--<TextView-->
+    <!--android:id="@+id/text"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:text="@string/hello_world"-->
+    <!--app:layout_box="all" />-->
+
+    <!--<TextView-->
+    <!--android:id="@+id/clock"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_gravity="bottom|start"-->
+    <!--android:textColor="@android:color/white"-->
+    <!--app:layout_box="all" />-->
+
+</android.support.wearable.view.BoxInsetLayout>

@@ -1,0 +1,13 @@
+<resources>
+    <declare-styleable name="BreathView">
+        <attr name="startRadius" format="dimension" />
+        <attr name="endRadius" format="dimension" />
+        <attr name="roundColor" format="color" />
+        <attr name="startAlpha" format="integer" />
+        <attr name="endAlpha" format="integer" />
+        <attr name="roundCount" format="integer" />
+        <attr name="percent" format="float" />
+        <attr name="durationIn" format="integer" />
+        <attr name="durationOut" format="integer" />
+    </declare-styleable>
+</resources>
