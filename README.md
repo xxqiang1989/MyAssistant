@@ -1,5 +1,6 @@
 # BreathView
-![](https://github.com/xxqiang1989/MyAssistant/blob/master/ScreenShot/0.png)
+![](https://github.com/xxqiang1989/MyAssistant/blob/master/ScreenShot/myassistant-MainActivity-08312016101932.png)
+![](https://github.com/xxqiang1989/MyAssistant/blob/master/ScreenShot/myassistant-MainActivity-08312016103556.png)
 
 
 位于wear/com/xxqiang/myassistant/view/路径下。  
